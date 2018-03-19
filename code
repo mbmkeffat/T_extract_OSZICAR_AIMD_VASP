@@ -1,0 +1,4 @@
+grep "T=" OSZICAR > file1.txt
+awk '{print $ColumnNumber}' file1.txt > file2.txt
+gnuplot #to initiate gnuplot 
+gnuplot> plot 'file2.txt'
